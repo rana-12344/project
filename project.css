@@ -26,3 +26,11 @@ color: black;
 background-color: black;
 color: white;
 }
+.log p,h1 {
+  position: relative;
+    left: 900px;
+}
+.sign p,h1 {
+  position: relative;
+    left: 900px;
+}
