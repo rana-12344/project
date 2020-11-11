@@ -28,12 +28,17 @@ color: white;
 }
 .log p,h1 {
   position: relative;
-    left: 900px;
 }
-.sign p,h1 {
-  position: relative;
-    left: 900px;
+.pos{
+  left: 840px
 }
+.box{
+  background-color: #FBFBEB ;
+  width: 280px;
+  height: 150px;
+padding: 25px 25px 25px 160px ;
+position: relative;
+left: 620px; }
 .R{
 	font-size:60px;
 	font-weight:bolder;
