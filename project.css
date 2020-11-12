@@ -1,5 +1,6 @@
  media="screen">
-body{      background-color: #EEE8D5 ; }
+body{      background-color: #AED6F1;
+}
 
  /* THE NAVIGATION BAR */
 .topnav {
@@ -45,7 +46,7 @@ color: white;
 	color:black;
 	font-size:40px;
 }
- 
+
 .B{
 	color:black;
 	font-size:40px;
@@ -72,7 +73,7 @@ color: white;
 }
 .img{
 	 far-right;
-}	
+}
 .pharse{
  text-align: center;
   border: 5px solid gray;
