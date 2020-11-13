@@ -1,5 +1,5 @@
- media="screen">
-body{      background-color: #AED6F1;
+ 
+body{      background-color: #F4ECF7;
 }
 
  /* THE NAVIGATION BAR */
@@ -83,4 +83,18 @@ color: white;
   padding: 10px;
   margin: 0;
   color:black;
+}
+a:hover {
+background-color:#addd;
+color:black;
+}
+.next{
+float:left;
+  padding:50px;
+  margin:130px;
+}
+.previous{
+float:right;
+padding:50px;
+  margin:130px;
 }
