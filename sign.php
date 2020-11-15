@@ -29,9 +29,9 @@ if(Mysqli_Connect_error() ){
     $stmt = $con->prepare($INSERT);
     $stmt->bind_param("sss" , $u_name , $u_email , $u_password);
     $stmt->execute();
-    echo "New record inserted sucessfully";
+    echo "تم التسجيل بنجاح";
   } else {
-    echo "this email already used";
+    echo "لقد تم استخدام هذا الايميل";
   }
   $stmt->close();
   $con->close();
