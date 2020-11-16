@@ -95,7 +95,11 @@ padding:50px;
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-
+ .nex {
+	  bottom:0;
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
 .pre{
     left:0;
     border-radius: 3px 0 0 3px;
