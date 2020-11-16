@@ -4,86 +4,32 @@ body{      background-color: #F4ECF7;
 
  /* THE NAVIGATION BAR */
 .topnav {
-background-color:#333;
-overflow: hidden;
+float:right
+}
+.topnav a{
+width:auto;
+overflow:auto;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
 float: right;
-color:white;
-text-align: center;
-padding: 14px 16px;
+display:inline-block;
+list-style:none;
+color:#fff;
+padding: 5px 15px;
 text-decoration: none;
-font-size: 17px;
+font-size: 25px;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
 background-color: #ddd;
-color:white;
-}
-/* Add a color to the active/current link */
-.topnav a.active {
-background-color: black;
-color: white;
+color:black;
 }
 
 /* THE LOGIN AND SIGNIN PAGES */
 .ri{
    position: relative;
    right: -620px; }
-}
-
-/* Rio page */
-.R{
-	font-size:60px;
-	font-weight:bolder;
-	color:black;
-}
-.A{
-	color:black;
-	font-size:40px;
-}
-
-.B{
-	color:black;
-	font-size:40px;
-}
-.C{
-	color:black;
-	font-size:40px;
-}
-.D{color:black;
-	font-size:40px;
-}
-.M{
-	background-image: url("pic1.JPG");
-}
-.D{
-	text-align:center;
-  border: 5px solid gray;
-  float:right;
-  background-image:url("pic3.JPG") ;
-   width: 320px;
-  padding: 15px 17px;
-  margin: 0;
-  color:black;
-}
-.img{
-	 far-right;
-}
-.pharse{
- text-align: center;
-  border: 5px solid gray;
-  float:right;
-  background-image:url("pic3.JPG") ;
-   width: 320px;
-  padding: 10px;
-  margin: 0;
-  color:black;
-}
-a:hover {
-background-color:#addd;
-color:black;
 }
 .next{
 float:left;
@@ -98,9 +44,6 @@ padding:50px;
 .ba{
   background-image: url("background.JPG");
   background-size:cover;
-}
-.Riyadh{
-  background-image:url("background.JPG") ;
 }
   .mySlides1{display: none}
   img {vertical-align: middle;}
@@ -138,6 +81,46 @@ padding:50px;
   .prev:hover, .next:hover {
     background-color: #f1f1f1;
     color: black;
+  }
+.pre, .nex {
+    cursor: pointer;
+    position:relative;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #7B7D7D ;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+.pre{
+    left:0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a grey background color */
+  .pre:hover, .nex:hover , .previous:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+  .previous{
+	  cursor: pointer;
+    position: absolute;
+	  width: auto;
+    padding: 16px;
+	   color: #7B7D7D ;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  .previous{
+    right:0;
+    border-radius: 3px 0 0 3px;
   }
 
   .side{
