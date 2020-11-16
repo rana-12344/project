@@ -13,19 +13,20 @@
       <a href="signIn.html">التسجيل</a>
       <a href="logIn.html">تسجيل الدخول</a>
     </div>
-
-      <br><br><br><center><h1 class="pos">تسجيل الدخول</h1>
-      </center>
-      <div class="ri">
-      <form class="log" action="log.php" method="POST" >
-      <p>
-      <input type="text" name="u_email" required>
-        الايميل</p>
-      <p>
-      <input type="password" name="u_password" required>
-       كلمة المرور</p>
-       <input type="submit" name="sub" value="ارسال">
-      </form> </div>
+    div class="box">
+<h2>تسجيل الدخول </h2>
+<form class="log" action="log.php" method="POST" >
+<div class="inputBox">
+<input type="email" name="u_email" required>
+<label>الايميل</label>
+</div>
+<div class="inputBox" >
+<input type="password" name="u_password" required>
+<label>الرمز</label>
+</div>
+<input type="submit" name="sub" value="ارسال">
+</form>
+</div>
 
   </body>
 </html>
