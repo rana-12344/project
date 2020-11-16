@@ -13,22 +13,23 @@
       <a href="signIn.html">تسجيل الاشتراك</a>
       <a href="logIn.html">تسجيل الدخول</a>
     </div>
-
-    <br><br><br> <center> <h1 class="pos">تسجيل الاشتراك</h1> </center>
-    <div class="ri">
-
-      <form class="sign" action="sign.php" method="POST">
-      <p>
-      <input type="text" name="u_name" required >
-        اسم المستخدم</p>
-        <p>
-        <input type="email" name="u_email" required>
-      البريد الالكتروني</p>
-      <p>
-      <input type="password" name="u_password" required>
-       كلمة المرور</p>
-       <input type="submit" name="sub" value="ارسال">
-      </form>
+<div class="box">
+    <h2> التسجيل  </h2>
+    <form class="sign" method="post" action="index.html">
+    <div class="inputBox">
+    <input type="text" name="Username" required>
+    <label>اسم المستخدم</label>
+    </div>
+    <div class="inputBox">
+    <input type="email" name="useremail" required>
+    <label>البريد الالكتروني</label>
+    </div>
+    <div class="inputBox" >
+    <input type="password" name="userpassword" required>
+    <label>الرمز</label>
+    </div>
+    <input type="submit" name="sub" value="ارسال">
+    </form>
     </div>
   </body>
 </html>
