@@ -1,61 +1,63 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>home</title>
+<html lang="en">
+<head>
+<title>Bootstrap 4 Website Example</title>
   <link rel="stylesheet" href="project.css">
-  <style>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
   * {box-sizing: border-box}
-
-  </style>
-  </head>
-  <body> 
-<div class="topnav">
-  <a class="active" href="home.html">الرئيسية</a>
-  <a href="favorite.html">المفضلة</a>
-  <a href="cities.html">الفعاليات</a>
-  <a href="signIn.html">التسجيل</a>
-  <a href="logIn.html">تسجيل الدخول</a>
-</div>
-<br></br>
-<div class="slideshow-container">
-  <div class="mySlides1">
-    <img src="photo1.jpg" style="width:900px">
-  </div>
-
-  <div class="mySlides1">
-    <img src="qasr Red1.jpg" style="width:900px">
-  </div>
-
-  <div class="mySlides1">
-    <img src="photo0.jpg" style="width:900px">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
- <a href= "Cities.html" class="nex" style="font-size:30px"> التالي </a>
-</div>
-
-<script>
-var slideIndex = [1,1];
-var slideId = ["mySlides1"]
-showSlides(1, 0);
-
-
-function plusSlides(n, no) {
-  showSlides(slideIndex[no] += n, no);
-}
-
-function showSlides(n, no) {
-  var i;
-  var x = document.getElementsByClassName(slideId[no]);
-  if (n > x.length) {slideIndex[no] = 1}
-  if (n < 1) {slideIndex[no] = x.length}
-  for (i = 0; i < x.length; i++) {
-     x[i].style.display = "none";
+  .oo{
+      background:#6699;
   }
-  x[slideIndex[no]-1].style.display = "block";
-}
-</script>
-  </body>
+</style>
+</head>
+<body class="oo">
+  <div class="topnav">
+    <a class="active" href="home.html">الرئيسية</a>
+    <a href="favorite.html">المفضلة</a>
+    <a href="cities.html">الفعاليات</a>
+    <a href="signIn.html">التسجيل</a>
+    <a href="logIn.html">تسجيل الدخول</a>
+  </div>
+  <br></br>
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2></h2>
+      <div >
+          <img src="g20-a.jpg" width="300px">
+      </div>
+      <h3>:بعض الروابط </h3>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link active" href=""> ليالي الرياض </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#link2">برج المملكة </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"> قصر المربع </a>
+        </li>
+      </ul>
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>وجهتك </h2>
+      <div ><img src="pp91.jpg" width="400px"></div>
+      <p>:حدد وجهتك معنا في الرياض</p>
+      <p>الرياض من اجمل مدن السياحة في السعودية ، وتعتبر من اكثر مدن العالم توسعاً ونمواً تتميز برمالها الذهبية والمراكز التجارية والمالية ويظهر فيها التطور العمراني بأبها حلة تضم مدينة الرياض السعودية الكثير من المطاعم التي تقدم اشهى اصناف المأكولات بالاضافة الى كونها تحتضن الكثير من الاماكن السياحية والترفيهية والتاريخية.</p>
+      <br>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>example@gmail.com : تواصلوا معنا عبر الايميل
+  </p>
+</div>
+</body>
 </html>
