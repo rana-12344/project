@@ -1,5 +1,5 @@
 
-body{      background-color: #D0D3D4  ;
+body{      background-color: #F2F4F4   ;
 }
 
  /* THE NAVIGATION BAR */
@@ -15,7 +15,7 @@ overflow:auto;
 float: right;
 display:inline-block;
 list-style:none;
-color:white;
+color:#E6B0AA ;
 padding: 5px 15px;
 text-decoration: none;
 font-size: 25px;
