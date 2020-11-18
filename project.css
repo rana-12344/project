@@ -1,10 +1,15 @@
 
-body{      background-color: #F2F4F4   ;
+body{      background-color: #F9F7CF   ;
 }
 
  /* THE NAVIGATION BAR */
 .topnav {
-float:right
+float:right;
+list-style-type:none;
+margin:0;
+padding:0;
+overflow :hidden;
+background-color:#af6b58;	
 }
 .topnav a{
 width:auto;
@@ -15,8 +20,8 @@ overflow:auto;
 float: right;
 display:inline-block;
 list-style:none;
-color:#F2F4F4  ;
-padding: 5px 15px;
+color:white;
+padding: 20px 15px;
 text-decoration: none;
 font-size: 25px;
 }
