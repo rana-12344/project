@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -10,8 +13,8 @@
       <a class="active" href="home.html">الرئيسية</a>
       <a href="favorite.html">المفضلة</a>
       <a href="cities.html">الفعاليات</a>
-      <a href="signIn.html">تسجيل الاشتراك</a>
-      <a href="logIn.html">تسجيل الدخول</a>
+      <a href="signIn.php">تسجيل الاشتراك</a>
+      <a href="logIn.php">تسجيل الدخول</a>
     </div>
 <div class="box">
     <h2> التسجيل  </h2>
@@ -28,9 +31,8 @@
     <input type="password" name="u_password" required>
     <label>الرمز</label>
     </div>
-    <input type="submit" name="sub" value="ارسال">
+    <input  type="submit" name="sub"  value="ارسال" >
     </form>
     </div>
   </body>
 </html>
-
