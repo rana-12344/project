@@ -29,9 +29,16 @@ if(Mysqli_Connect_error() ){
     $stmt = $con->prepare($INSERT);
     $stmt->bind_param("sss" , $u_name , $u_email , $u_password);
     $stmt->execute();
-    echo "تم التسجيل بنجاح";
+            $sname=$_POST['u_name'];
+            $semail=$_POST['u_email'];
+            $spass=$_POST['u_password'];
+               if( $sname == $u_name and $semail == $u_email and $spass == $u_password ){
+              session_start();
+              $_SESSION['u_email']=$sname;
+              header("Location:user.php");
+              }
   } else {
-    echo "لقد تم استخدام هذا الايميل";
+    echo "لقد تم استخدام هذا الايميل او الاسم <br> لاعادة المحاولة <a href='signin.php'>اضغط هنا</a>";
   }
   $stmt->close();
   $con->close();
