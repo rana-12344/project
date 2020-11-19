@@ -15,14 +15,14 @@ overflow:auto;
 float: right;
 display:inline-block;
 list-style:none;
-color:#E6B0AA ;
+color:#F2F4F4  ;
 padding: 5px 15px;
 text-decoration: none;
 font-size: 25px;
 }
 /* Change the color of links on hover */
 a:hover {
-background-color:#addd;
+background-color:#fff3e2;
 color:black;
 }
 
@@ -215,4 +215,3 @@ padding:50px;
     border-radius: 10px ;
 
 }
-
