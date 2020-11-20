@@ -45,6 +45,17 @@ button{
   border:none;
   font-size: 16px;
 }
+  clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: Orbitron;
+    letter-spacing: 7px;
+}
+  .slideshow-container{box-sizing: border-box}
 </style>
 </head>
 <body class="oo">
@@ -63,10 +74,22 @@ button{
 <div class="container" style="margin-top:30px">
   <div class="row">
     <div class="col-sm-4">
-      <h2></h2>
-      <div >
-          <img src="g20-a.jpg" width="300px">
-      </div>
+      <h2><div id="MyClockDisplay" class="clock" onload="showTime()"></div> </h2>
+      <div class="slideshow-container">
+        <div class="mySlides1">
+          <img src="g20-a.jpg" style="width:300px">
+        </div>
+
+        <div class="mySlides1">
+          <img src="qasr Red1.jpg" style="width:300px">
+        </div>
+
+        <div class="mySlides1">
+          <img src="photo11.jpg" style="width:300px">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 0)">&#10095;</a></div>
       <h3>اختر وجهتك</h3>
       <ul class="nav nav-pills flex-column">
         <li class="nav-item">
@@ -93,6 +116,60 @@ button{
                  <p>: تواصلوا معنا عبر الايميل </p>
                  <p>example@gmail.com </p>
 </div>
+  <script>
+function showTime(){
+    var date = new Date();
+    var h = date.getHours(); // 0 - 23
+    var m = date.getMinutes(); // 0 - 59
+    var s = date.getSeconds(); // 0 - 59
+    var session = "AM";
+
+    if(h == 0){
+        h = 12;
+    }
+
+    if(h > 12){
+        h = h - 12;
+        session = "PM";
+    }
+
+    h = (h < 10) ? "0" + h : h;
+    m = (m < 10) ? "0" + m : m;
+    s = (s < 10) ? "0" + s : s;
+
+    var time = h + ":" + m + ":" + s + " " + session;
+    document.getElementById("MyClockDisplay").innerText = time;
+    document.getElementById("MyClockDisplay").textContent = time;
+
+    setTimeout(showTime, 1000);
+
+}
+
+showTime();
+</script>
+
+      <script>
+      var slideIndex = [1,1];
+      var slideId = ["mySlides1"]
+      showSlides(1, 0);
+
+
+      function plusSlides(n, no) {
+        showSlides(slideIndex[no] += n, no);
+      }
+
+      function showSlides(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+           x[i].style.display = "none";
+        }
+        x[slideIndex[no]-1].style.display = "block";
+      }
+      </script>
+
 
 </body>
 </html>
