@@ -243,6 +243,14 @@ padding:50px;
   color:#cbaf87;
   font-weight:bolder;
 }
+.R h3{
+  margin: 0px 0px 1px 10px;
+}
+.R h3:hover {
+  color:blue;
+  background-color: gray;
+}
+
 /* RIO PAGE */
 .dropdown {
   position: relative;
