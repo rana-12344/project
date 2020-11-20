@@ -47,7 +47,7 @@ padding:50px;
   margin:130px;
 }
 .ba{
-  background-image: url("background.JPG");
+  background-image: url("pic50.JPG");
   background-size:cover;
 }
   .mySlides1{display: none}
@@ -79,7 +79,7 @@ padding:50px;
   /* Position the "next button" to the right */
   .next {
     right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px 0 0 2px;
   }
 
   /* On hover, add a grey background color */
