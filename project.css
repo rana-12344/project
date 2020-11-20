@@ -8,7 +8,7 @@ list-style-type:none;
 margin:0;
 padding:0;
 overflow :hidden;
-background-color:#af6b58;	
+background-color:#af6b58;
 }
 .topnav a{
 width:auto;
@@ -124,7 +124,7 @@ padding:50px;
     background-color: #f1f1f1;
     color: black;
   }
-  
+
 /* TOUREST PAGE */
   .side{
   padding-top: 10px;
@@ -136,20 +136,20 @@ padding:50px;
   font-size: 18px;
     width: 320px;
     height: 150px;
-    background-color: #FAF5FC;
+    background-color: #F7e7bd;
   }
   .side a:hover{
     color: black;
   }
    .tou {
       font-size: 20px;
-    background-color: #FAF5FC ;
+    background-color: #F2dcbd ;
     width: 1000px;
     height: 3500px;
     position: relative;
     left: 200px; }
    .tou h3{
-      color:red;
+      color:#af6b58;
       font-weight: bolder;
     }
   /* BOX IN LOGIN AND SIGNIN PAGES */
@@ -301,7 +301,7 @@ font-size:30px;
  float:right;
  font-size:20px;
  font-weight:bolder;
- 
+
   }
  .search-form{
   margin-top: 15px;
