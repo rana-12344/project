@@ -34,7 +34,7 @@ if(Mysqli_Connect_error() ){
             $spass=$_POST['u_password'];
                if( $sname == $u_name and $semail == $u_email and $spass == $u_password ){
               session_start();
-              $_SESSION['u_email']=$sname;
+              $_SESSION['u_name']=$sname;
               header("Location:user.php");
               }
   } else {
