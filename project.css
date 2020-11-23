@@ -43,9 +43,13 @@ padding:50px;
 }
 
 /* HOME PAGE  : FOR THE IMAGES */
-  .mySlides1{display: none}
-  img {vertical-align: middle;}
-
+  .mySlides1{
+	  display: none
+	  }
+  img {
+	  vertical-align: middle;
+  }
+  
   /* Slideshow container */
   .slideshow-container {
     max-width: 1000px;
@@ -284,12 +288,13 @@ left: 200px;
 /* CITIES PAGE */
 .Riyadh{
 background-image:url("pic.jpg");
-background:coner;
+background:cover;
 background-repeat:repeat-x;
+
 }
 .chose{
 padding:50px;
-margin:130px;
+font-weight:bold;
 font-size:50px;
 
 }
@@ -302,13 +307,17 @@ font-size:30px;
       background:#F9F7CF;
   }
  .SA{
-   float:right;
+ 
   }
+
   .Em{
  float:right;
  font-size:20px;
  font-weight:bolder;
 
+  }
+  .E{
+	 float:right; 
   }
  .search-form{
   margin-top: 15px;
@@ -362,6 +371,19 @@ input[type="text"]{
 }
 /* FOR MUSEUM PAGE (SEARCH ICON)*/
  .M button{
+  float: right;
+  background:orange;
+  color:white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  position:relative;
+  padding:7px;
+  font-family: sans-serif;
+  border:none;
+  font-size: 16px;
+}
+/* FOR CITIES PAGE (SEARCH ICON)*/
+.Riyadh button{
   float: right;
   background:orange;
   color:white;
