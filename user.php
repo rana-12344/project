@@ -7,24 +7,6 @@ session_start();
     <meta charset="utf-8">
     <title>....</title>
     <link rel="stylesheet" href="project.css">
-    <style media="screen">
-    table, th, td {
-border: 1px solid black;
-border-collapse: collapse;
-background-color: #f1f1c1 ;
-}
-table, th, td {
-  border: 2px solid black;
-  font-size: 20px;
-  text-align: center;
-}
-th, td {
-  padding: 10px;
-}
-table {
-  border-spacing: 5px;
-}
-    </style>
   </head>
   <body>
     <div class="topnav">
