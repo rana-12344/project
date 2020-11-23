@@ -145,13 +145,6 @@ padding:50px;
   .side a:hover{
     color: black;
   }
-   .tou {
-      font-size: 20px;
-    background-color: #F2dcbd ;
-    width: 1000px;
-    height: 3500px;
-    position: relative;
-    left: 200px; }
    .tou h3{
       color:#af6b58;
       font-weight: bolder;
