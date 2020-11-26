@@ -12,7 +12,7 @@ if($con->connect_error){
   $stmt_result = $stmt->get_result();
 
      if($stmt_result->num_rows > 0){
-    $data = $stmt_result->fetch_assoc();}
+    $data = $stmt_result->fetch_assoc();
        if($data['u_password'] === $u_password){
 
         $sname=$_POST['u_name'];
@@ -22,6 +22,7 @@ if($con->connect_error){
           $_SESSION['u_name']=$sname;
           header("Location:user.php");
           }
-      }else  {echo "لقد تم استخدام هذا الايميل او الاسم <br> لاعادة المحاولة <a href='login.php'>اضغط هنا</a>";}
+      } }
+      else  {echo "اسم المستخدم او كلمة السر خاطئة <br> لاعادة المحاولة <a href='login.php'>اضغط هنا</a>";}
 
  ?>
