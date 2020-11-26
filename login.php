@@ -6,7 +6,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <title>تسجيل الدخول</title>
-    <link rel="stylesheet" href="project.css"
+    <link rel="stylesheet" href="project.css">
   </head>
   <body class="ba">
     <div class="topnav">
@@ -29,9 +29,5 @@ session_start();
 <input type="submit" name="sub" value="ارسال">
 </form>
 </div>
-<?php
-
-
-?>
   </body>
 </html>
