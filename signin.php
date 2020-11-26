@@ -6,7 +6,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <title>تسجيل الاشتراك</title>
-    <link rel="stylesheet" href="project.css"
+    <link rel="stylesheet" href="project.css">
   </head>
   <body class="ba">
     <div class="topnav">
