@@ -5,7 +5,7 @@ session_start();
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>....</title>
+    <title> تسجيل الدخول</title>
     <link rel="stylesheet" href="project.css">
   </head>
   <body>
