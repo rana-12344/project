@@ -141,6 +141,7 @@ padding:50px;
     width: 320px;
     height: 150px;
     background-color: #F7e7bd;
+    text-align: center;
   }
   .side a:hover{
     color: black;
@@ -356,4 +357,16 @@ th, td {
 }
 table {
   border-spacing: 5px;
+}
+.desc{
+  text-align: center;
+}
+.dropdown{
+  text-align: center;
+}
+.mus {
+    text-align: center;
+}
+.fas{
+  text-align: center;
 }
