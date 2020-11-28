@@ -6,6 +6,7 @@ session_start();
   <head>
     <meta charset="utf-8">
     <title> تسجيل الدخول</title>
+    <link rel="shortcut icon" href="m2.jpg"> <!-- https://www.omallqura.com/kingdom-tower-riyadh/ -->
     <link rel="stylesheet" href="project.css">
   </head>
   <body>
@@ -16,7 +17,7 @@ session_start();
       <a href="logIn.php">تسجيل الدخول</a>
     </div> <br><br><br><br>
 <center><?php
- echo "<h1>"."welcome ". $_SESSION['u_name'],"</h1>";
+ echo "<h1>"."welcome ". $_SESSION['u_name']."</h1>";
  ?>
     <br><h2>الجهة المنظمة للفعالية</h2><br></center>
     <table style="width:100%">
