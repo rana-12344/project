@@ -7,6 +7,7 @@ session_start();
     <meta charset="utf-8">
     <title>تسجيل الدخول</title>
     <link rel="stylesheet" href="project.css">
+    <link rel="shortcut icon" href="m2.jpg"> <!-- https://www.omallqura.com/kingdom-tower-riyadh -->
   </head>
   <body class="ba">
     <div class="topnav">
