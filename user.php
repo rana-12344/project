@@ -16,12 +16,12 @@ session_start();
       <a href="signIn.php">تسجيل الاشتراك</a>
       <a href="logIn.php">تسجيل الدخول</a>
     </div> <br><br><br><br>
-<center>
+<div class="tabb">
   <?php
 $w = $_SESSION['u_name'] ;
- echo "<h1> welcome $w " ;
+ echo  "<h1> welcome $w </h1>";
  ?>
-    <br><h2>الجهة المنظمة للفعالية</h2><br></center>
+    <br><h2>الجهة المنظمة للفعالية</h2><br>
     <table style="width:100%">
   <tr>
     <th>المهرجانات</th>
@@ -60,6 +60,6 @@ $w = $_SESSION['u_name'] ;
   </tr>
 
 </table>
-
+</div>
   </body>
 </html>
