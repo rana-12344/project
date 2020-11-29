@@ -20,9 +20,8 @@ if($con->connect_error){
            if($sname == $u_name and $spass == $u_password){
           session_start();
           $_SESSION['u_name']=$sname;
-          header("Location:user.php");
-          }
-      } }
-      else  {echo "اسم المستخدم او كلمة السر خاطئة <br> لاعادة المحاولة <a href='login.php'>اضغط هنا</a>";}
+          header("Location:user.php");   }
+      } else {echo "اسم المستخدم او كلمة السر خاطئة <br> لاعادة المحاولة <a href='login.php'>اضغط هنا</a>";}
+    }else {echo "اسم المستخدم او كلمة السر خاطئة <br> لاعادة المحاولة <a href='login.php'>اضغط هنا</a>";}
 
  ?>
