@@ -11,10 +11,7 @@ overflow :hidden;
 background-color:#af6b58;
 text-align: center;
 }
-.topnav a{
-width:auto;
-overflow:auto;
-}
+
 /* Style the links inside the navigation bar */
 .topnav a {
 float: right;
@@ -23,6 +20,8 @@ list-style:none;
 color:white;
 padding: 20px 15px;
 text-decoration: none;
+width:auto;
+overflow:auto;
 }
 /* Change the color of links on hover */
 a:hover {
@@ -32,11 +31,6 @@ color:black;
 
 /* THE LOGIN AND SIGNIN PAGES */
 
-.previous{
-float:right;
-padding:50px;
-  margin:130px;
-}
 .ba{
   background-image: url("pic50.JPG"); /*https://www.google.com.sa/search?safe=strict&sa=G&hl=ar&tbs=simg:CAQSrwIJOJM6TVl_1n6waowILELCMpwgaYgpgCAMSKJILjwvBCo0LkQvACosLjguKFfMW0zjJIuY-tyqbK5or0ji2KtEryiIaMBdl6yTzpEGiMISsPX63Syyjro_1ZXVnE0h41NORFaJW1pa756rJWjA2Z1ASNGUIBZCAEDAsQjq7-CBoKCggIARIEgqZA-AwLEJ3twQkamwEKHQoKY29tbWVyY2lhbNqliPYDCwoJL2ovZ3BzNGZjCiMKEW1ldHJvcG9saXRhbiBhcmVh2qWI9gMKCggvbS8wal9zNAocCgljaXR5c2NhcGXapYj2AwsKCS9tLzAzNHo3aAodCgp1cmJhbiBhcmVh2qWI9gMLCgkvbS8wMzlqYnEKGAoFbmlnaHTapYj2AwsKCS9tLzAxZDc0egw&q=%D8%B5%D9%88%D8%B1+%D8%AE%D9%84%D9%81%D9%8A%D8%A7%D8%AA+%D9%85%D8%AF%D9%86&tbm=isch&ved=2ahUKEwiPsfak76TtAhUFNOwKHZXyDs4Qwg4oAHoECBAQMA*/
   background-size:cover;
@@ -72,43 +66,20 @@ padding:50px;
     border-radius: 0 3px 3px 0;
     user-select: none;
   }
-.pre, .nex {
-    cursor: pointer;
-    position:relative;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: #7B7D7D ;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
- .nex {
-	  bottom:0;
-    left: 0;
-    border-radius: 3px 0 0 3px;
-}
-.pre{
-    left:0;
-    border-radius: 3px 0 0 3px;
-  }
   .previous{
 	  cursor: pointer;
     position: absolute;
 	  width: auto;
-    padding: 16px;
+    padding: 50px;
 	   color: #7B7D7D ;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
-  }
-  .previous{
-    right:0;
-    border-radius: 3px 0 0 3px;
+	right:0;
+	float:right;
+    margin:130px;
   }
   /* Position the "next button" to the right */
   .next {
@@ -149,6 +120,7 @@ padding:50px;
    .tou h3{
       color:#af6b58;
       font-weight: bolder;
+	   text-align: center;
     }
   /* BOX IN LOGIN AND SIGNIN PAGES */
 .box{
@@ -250,7 +222,8 @@ padding:50px;
 /* RIO PAGE */
 .dropdown {
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+ text-align: center;  }
 
 .dropdown-content {
   display: none;
@@ -267,6 +240,7 @@ padding:50px;
   padding: 10px;
   text-align:center;
   display: block;
+   text-align: center;
 }
 
 .fas {
@@ -275,7 +249,7 @@ width: 1000px;
 height: 600px;
 position: relative;
 left: 200px;
-
+ text-align: center;
 }
 /* CITIES PAGE */
 .Riyadh{
@@ -306,24 +280,12 @@ text-align: center;
  .H{
       background:#F9F7CF;
   }
- .SA{
-
-  }
-
   .Em{
  float:right;
  font-size:20px;
  font-weight:bolder;
 
   }
-  .E{
-	 float:right;
-  }
- .search-form{
-  margin-top: 15px;
-  float:left;
-  margin-left:100px;
-}
 input[type="text"]{
   padding: 7px;
   border:none;
@@ -358,18 +320,11 @@ th, td {
 table {
   border-spacing: 5px;
 }
-.desc{
-  text-align: center;
-}
-.dropdown{
-  text-align: center;
-}
+
 .mus {
     text-align: center;
 }
-.fas{
-  text-align: center;
-}
+
 .tou{
 text-align: center;
 }
